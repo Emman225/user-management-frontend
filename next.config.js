@@ -7,13 +7,8 @@ const nextConfig = {
         hostname: "fonts.gstatic.com",
       },
       {
-        protocol: "https",
-        hostname: "usermanagement-api.ecoletestpro.com",
-        pathname: "/storage/**", // ✅ autorise tous les fichiers dans /storage/
-      },
-      {
         protocol: 'https',
-        hostname: 'usermanagement-api.ecoletestpro.com',
+        hostname: 'api.usermanagement.ecoletestpro.com',
       },
     ],
   },
